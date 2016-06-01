@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!--Import Google Icon Font-->
+    <title>Сайт - портфолио / Добро пожаловать!</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="js/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="font/archive.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <header id="header" class="">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"><img class="topLogo" src="img/coding.svg" alt="logo"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li> <a class="waves-effect waves-light btn modal-trigger" href="#modalFuck">О себе</a>
+                    </li>
+                    <li><a href="#portfolio__i" class="header__anchor">портфолио</a></li>
+                    <li><a href="#footer__i" class="header__anchor">контакты</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a class="waves-effect waves-light btn modal-trigger" href="#modalFuck">О себе</a></li>
+                    <li><a href="#portfolio__i" class="sideMenu">портфолио</a></li>
+                    <li><a href="#footer__i" class="sideMenu">контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstPage" id="about__i">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 m12 s12">
+                        <div class="imgWrap">
+                            <img src="img/avatar2.png" alt="avatar" class="parallax__more">
+                        </div>
+                    </div>
+                    <div class="col l6 m12 s12">
+                        <h1>добрый день!</h1>
+                        <p class="about__title">
+                            Это сайт портфолио. Здесь можно найти мои работы по <span>вёрстке</span> и <span>дизайну</span>.
+                        </p>
+                        <p class="git__word">
+                            <img src="img/github.svg" alt="">
+                            <a href="https://github.com/Magelansky">github.com/Magelansky</a>
+                        </p>
+                        <div class="btn__wrap">
+                            <button href="#portfolio__i" class="about__button header__anchor">
+                                <i class="fa fa-eye" aria-hidden="true"></i> посмотреть все работы
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio__i">
+            <h2 class="title__universal">портфолио</h2>
+            <div class="row">
+                <div class="portfolio__item">
+                    <div class="col l4 m4 s12">
+                        <figure class="porfolio__fig">
+                            <h4>пиццерия</h4>
+                            <img src="img/pizza (3).svg" alt="магазин суши">
+                            <h5>ДИЗАЙН + ВЁРСТКА</h5>
+                            <p>bootstrap 3, html5, BEM, gulp + browsersync</p>
+                            <div class="button__wrapBtn">
+                                <button class="portfolio__see">
+                                    <a href="project/Pizza/index.html">посмотреть</a>
+                                </button>
+                                <button class="portfolio__see">
+                                    <i class="fa fa-code" aria-hidden="true"></i> <a href="project/Pizza/index.html">код</a>
+                                </button>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <div class="col l4 m4 s12">
+                        <figure class="porfolio__fig">
+                            <h4>кофейня</h4>
+                            <img src="img/coffee (1).svg" alt="магазин суши">
+                            <h5>ДИЗАЙН + ВЁРСТКА</h5>
+                            <p>bootstrap 3, html5, BEM, gulp + browsersync</p>
+                            <div class="button__wrapBtn">
+                                <button class="portfolio__see">
+                                    <a href="project/Coffee/index.html">посмотреть</a>
+                                </button>
+                                <button class="portfolio__see">
+                                    <i class="fa fa-code" aria-hidden="true"></i> <a href="project/Pizza/index.html">код</a>
+                                </button>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <div class="col l4 m4 s12">
+                        <figure class="porfolio__fig">
+                            <h4>салон для собак</h4>
+                            <img src="img/jack-russell-terrier.svg" alt="магазин суши">
+                            <h5>ДИЗАЙН + ВЁРСТКА</h5>
+                            <p>bootstrap 3, html5, BEM, gulp + browsersync</p>
+                            <div class="button__wrapBtn">
+                                <button class="portfolio__see">
+                                    <a href="project/Dog/index.html">посмотреть</a>
+                                </button>
+                                <button class="portfolio__see">
+                                    <i class="fa fa-code" aria-hidden="true"></i> <a href="project/Pizza/index.html">код</a>
+                                </button>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <div class="col l4 m4 s12">
+                        <figure class="porfolio__fig">
+                            <h4>магазин одежды</h4>
+                            <img src="img/shoe.svg" alt="магазин суши">
+                            <h5>ВЁРСТКА</h5>
+                            <p>bootstrap 3, html5, BEM, gulp + browsersync</p>
+                            <div class="button__wrapBtn">
+                                <button class="portfolio__see">
+                                    <a href="project/Shop/index.html">посмотреть</a>
+                                </button>
+                                <button class="portfolio__see">
+                                    <i class="fa fa-code" aria-hidden="true"></i> <a href="project/Pizza/index.html">код</a>
+                                </button>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <div class="col l4 m4 s12">
+                        <figure class="porfolio__fig">
+                            <h4>Дом моды</h4>
+                            <img src="img/shirt.svg" alt="магазин суши">
+                            <h5>ВЁРСТКА</h5>
+                            <p>bootstrap 3, html5, BEM, gulp + browsersync</p>
+                            <div class="button__wrapBtn">
+                                <button class="portfolio__see">
+                                    <a href="project/Fashion/index.html">посмотреть</a>
+                                </button>
+                                <button class="portfolio__see">
+                                    <i class="fa fa-code" aria-hidden="true"></i> <a href="project/Fashion/index.html">код</a>
+                                </button>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+                <div class="portfolio__item">
+                    <div class="col l4 m4 s12">
+                        <figure class="porfolio__fig">
+                            <h4>сток одежды</h4>
+                            <img src="img/women-coat.svg" alt="магазин суши">
+                            <h5>ВЁРСТКА</h5>
+                            <p>bootstrap 3, html5, BEM, gulp + browsersync</p>
+                            <div class="button__wrapBtn">
+                                <button class="portfolio__see">
+                                    <a href="project/Munditia/index.html">посмотреть</a>
+                                </button>
+                                <button class="portfolio__see">
+                                    <i class="fa fa-code" aria-hidden="true"></i> <a href="project/Pizza/index.html">код</a>
+                                </button>
+                            </div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="needMore">
+                <button class="needMore__btn">
+                    мало? нужно больше? пиши на почту!
+                </button>
+            </div>
+        </section>
+        <footer id="footer__i">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 m6 s12">
+                        <div class="mobile__wrap">
+                            <span class="topMobile">8 (029) 140-10-50</span>
+                            <span class="bottomMobile">телефон</span>
+                        </div>
+                    </div>
+                    <div class="col l6 m6 s12">
+                        <div class="mobile__wrap">
+                            <span class="topMobile">magelanskiy@gmail.com</span>
+                            <span class="bottomMobile">почта</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!-- Modal Structure -->
+    <div id="modalFuck" class="modal">
+        <div class="modal-content">
+            <h4>
+                <img src="img/circle (1).png" alt="avatar">
+            </h4>
+            <p>Никита, 24 года</p>
+            <div class="resume__title">
+                <h5>Что умею и чем пользуюсь</h5>
+                <ul>
+                    <li class="resume__list"><span><i class="fa fa-html5" aria-hidden="true"></i>html</span> - semantic, jade, bem, emmet, bootstrap grid</li>
+                    <li class="resume__list"><span><i class="fa fa-css3" aria-hidden="true"></i>css</span> - css3, animate, module Sass(Bourbone) / SCSS / less</li>
+                    <li class="resume__list"><span><i class="fa fa-code" aria-hidden="true"></i>javascript</span> - jQuery</li>
+                    <li class="resume__list">gulp</li>
+                    <li class="resume__list">bootsrap 3(4), materializeCSS, zurb foundation</li>
+                    <li class="resume__list">flat design, material, elementary design</li>
+                </ul>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat"><i class="fa fa-times-circle-o" aria-hidden="true"></i>закрыть</a>
+        </div>
+    </div>
+    <!-- /header -->
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>

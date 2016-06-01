@@ -1,0 +1,152 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .button__coll_right {
+    float: left;
+    margin-top: 15px; }
+  .collection__hidden {
+    margin-top: 70px; }
+  .universal__title {
+    margin: 0 auto;
+    border-bottom: none;
+    text-align: center; }
+  .social__wrapper {
+    margin-left: 0%; }
+  .navi__anchor:hover,
+  .navi__anchor:active,
+  .navi__anchor:focus {
+    text-decoration: none;
+    color: white;
+    border-bottom: 8px solid #db3838; }
+  .navi__anchor {
+    display: inline-block;
+    padding: 20px 1em 19px;
+    font-size: 13px;
+    font-family: "GothamProRegular";
+    transition: none; }
+  .shopping__card {
+    margin-left: 5px;
+    background-color: #db3838;
+    padding: 0 12px; }
+  .pagintion__wrap {
+    text-align: center; }
+  .quickPagination {
+    cursor: pointer; }
+  .quickPagination:hover {
+    text-decoration: underline; }
+  .quickPagination::after {
+    display: inline-block;
+    content: ':';
+    padding: 0 4px; }
+  .footer__list {
+    width: 33%;
+    text-align: center; }
+  .footer__logo {
+    text-align: center; }
+  .footer__topSide {
+    text-align: center;
+    padding: 3em 0; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .price__left {
+    text-align: center; }
+  .nav__o {
+    display: none; }
+  .topHeader__border {
+    border-left: none;
+    border-right: none; }
+  .logo {
+    padding-top: 37px;
+    text-align: center; }
+  .social__wrapper {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0; }
+  .headersearch__wrap {
+    margin-top: 20px; }
+  .hiddenButton {
+    display: block;
+    padding: 10px 0;
+    cursor: pointer; }
+  .navi__list {
+    width: 100%;
+    text-align: center; }
+  .navi__list a {
+    font-size: 1em;
+    padding: 10px 0;
+    border: none; }
+  .shopping__card {
+    width: 100%;
+    text-align: center; }
+  .navi__anchor:hover,
+  .navi__anchor:active,
+  .navi__anchor:focus {
+    text-decoration: none;
+    color: white;
+    border-bottom: none; }
+  .pagintion__wrap {
+    text-align: center; }
+  .absoluteBlockPagination h3 {
+    padding-top: 48px;
+    font-size: 16px; }
+  .absoluteBlockPagination .pag__button {
+    margin-top: 10px;
+    color: #fff;
+    font-family: "GothamProMedium";
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    background-color: #db3838;
+    display: inline-block; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .collection__hidden {
+    margin-top: 100px; }
+  .topHeader__wrap {
+    text-align: center; }
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important; }
+  .h__search {
+    width: 150px; }
+  .headersearch__wrap,
+  .button__search {
+    display: none; }
+  .pagination__blocks {
+    display: none; }
+  .miniSlider__collection.col-lg-6.col-md-6.col-sm-6 {
+    margin-top: 87px; }
+  .footer__list_wrap {
+    display: none; } }
+
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 993px) {
+  .nav__o {
+    display: block !important; } }
+
+/* Large Devices, Wide Screens */

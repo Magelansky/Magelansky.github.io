@@ -1,0 +1,124 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+}
+	
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+	h1 {
+		font-size: 4em;
+	}
+	.imgWrap {
+		width: 100%;
+		text-align: center;
+	}
+	.imgWrap img {
+		width: 400px;
+		margin: 0 auto;
+	}
+	h1 {
+		text-align: center;
+	}
+	.about__title {
+		text-align: center;
+		margin: 5px 0;
+	}
+	p.git__word {
+    	text-align: center;
+	}
+	.btn__wrap {
+		text-align: center;
+	}
+	.porfolio__fig h4 {
+		font-size: 2.5em;
+	}
+	.porfolio__fig {
+		height: 400px;
+	}
+}
+@media only screen and (max-width : 750px){
+	.porfolio__fig h5 {
+	    font-size: 2em;
+	}
+	.portfolio__see {
+		font-size: 1.5em;
+	}
+	.porfolio__fig h4 {
+    	font-size: 1.7em;
+	}
+	.porfolio__fig img {
+    	width: auto;
+	    line-height: 0;
+	    height: 100px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 600px){
+	.portfolio__see {
+    transform: translateX(0);
+    transition: all 0.3s ease-in;
+	}
+	nav {
+		height: 70px;
+		line-height: 70px;
+		padding-top: 3px;
+	}
+	.imgWrap img {
+			width: 100%;
+			margin: 0 auto;
+	}	
+
+	.about__button {
+   		font-size: 1.6em;
+	}
+	.porfolio__fig h4 {
+    	font-size: 5em;
+	}
+	.porfolio__fig h5 {
+	    font-size: 4em;
+	    text-decoration: underline;
+	}
+	.porfolio__fig p {
+	    
+	    font-size: 2em;
+	}
+	.porfolio__fig {
+		height: 500px;
+	}
+	.portfolio__see {
+    	font-size: 2.6em;
+	}
+	.imgWrap img {
+    	width: 300px;
+	}
+	/*Disable Animation on Mobile Devices*/
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+	.porfolio__fig {
+		height: 600px;
+	}
+	.porfolio__fig h5 {
+	    font-size: 3em;
+	}
+	.topMobile {
+		font-size: 2.2em;
+	}
+	.topMobile {
+		height: 35px;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+	/**/
+}
+

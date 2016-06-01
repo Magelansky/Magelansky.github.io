@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Заголовок</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="stylesheet" href="css/fonts.min.css">
+    <link rel="stylesheet" type="text/css" href="css/newFont.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+	<!-- MODAL -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	                <h4 class="modal-title">Как нас найти?</h4>
+	            </div>
+	            <div class="modal-body">
+	                <div class="google__maps_modal">
+	                	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.9002302767844!2d27.578129715439932!3d53.93351633826872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf7190a15297%3A0x164b1ccfa8abe8a6!2z0YPQuy4g0JzQsNC60YHQuNC80LAg0JHQvtCz0LTQsNC90L7QstC40YfQsCAxMTIsINCc0LjQvdGB0LosINCR0LXQu9Cw0YDRg9GB0Yw!5e0!3m2!1sru!2sru!4v1463612325844" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	                </div>
+	                <div class="mobile__number_modal">
+	                	<h4>8(029) 337 - 45 - 67</h4>
+	                	<div class="mobile__minsk">Минск</div>
+	                </div>
+	            </div>
+	            <div class="modal-footer">
+	                <button type="button" class="button__closeAll" data-dismiss="modal">Понял!</button>
+	            </div>
+	        </div>
+	        <!-- /.modal-content -->
+	    </div>
+	    <!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+	<!--  END MODAL -->
+
+    <header class="header">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="img/pizza.svg" alt="logo">
+                <div class="header__basket">
+                </div>
+            </a>
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#header_id" class="header__anchor">главная</a></li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">меню <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#pizza_id" class="header__anchor">пицца</a></li>
+                                <li><a href="#sushi_id" class="header__anchor">суши</a></li>
+                                <li><a href="#drink_id" class="header__anchor">напитки</a></li>
+                                <li><a href="#salad_id" class="header__anchor">салаты</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__special">
+                        	<a href="#reserv_i" class="header__anchor">заказ<span class="special__symbol_cl">!
+	                        </span>
+                        	</a>
+                        	</li>
+                        <li><a href="#" data-toggle="modal" data-target="#myModal">контакты</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </nav>
+        </div>
+    </header>
+    <!-- /header -->
+    <main>
+        <section class="header__section" id="header_id">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-4">
+                        <div class="wrap__pizza">
+                            <img src="img/pizzaBg.png" alt="pizza" class="pizzaBg">
+                            <img src="img/pizza.png" alt="pizza" class="pizzaImg">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-8">
+                        <div class="pizza__rightWrap">
+                            <h1>пицца "Итальянно"</h1>
+                            <div class="wrap__underTitle">
+                                <div class="leftSiteTitle">вес</div>
+                                <div class="rightSiteTitle">870г.</div>
+                            </div>
+                            <div class="inner__pizza">
+                                Состав: дрожжевое тесто, оливковое масло, соль, сахар, перец красный, лук, чеснок, шампиньоны.
+                            </div>
+                            <div class="price__pizza">
+                                цена <span>5.99руб</span>
+                            </div>
+                            <div class="btn__wrapTitle">
+                                <button class="btn__price">
+                                    заказать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu__wrapper"   id = "pizza_id">
+            <div class="section__title-main">
+                <h3>пицца</h3>
+                <img src="img/pppsect.svg" alt="food item">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+
+                            <img src="img/1.png" alt="food item">
+                            <figcaption>
+								
+                                <h5>"по-баварский"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>4.20р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+                            <img src="img/2.png" alt="food item">
+                            <figcaption>
+                                <h5>"филадельфия"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>3.85р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+                            <img src="img/3.png" alt="food item">
+                            <figcaption>
+                                <h5>"итальяно"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>6.63р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+                            <img src="img/4.png" alt="food item">
+                            <figcaption>
+                                <h5>"ароматная"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>3.30р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+                            <img src="img/5.png" alt="food item">
+                            <figcaption>
+                                <h5>"грческая"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>5.90р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+                            <img src="img/6.png" alt="food item">
+                            <figcaption>
+                                <h5>"острая"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>2.20р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu__wrapper"  id = "sushi_id">
+            <div class="section__title-main">
+                <h3>суши</h3>
+                <img src="img/sushi.svg" alt="food item">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+                            <img src="img/21.png" alt="food item">
+                            <figcaption>
+                                <h5>"по-баварский"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>4.20р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+                            <img src="img/22.png" alt="food item">
+                            <figcaption>
+                                <h5>"филадельфия"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>3.85р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+                            <img src="img/23.png" alt="food item">
+                            <figcaption>
+                                <h5>"итальяно"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>6.63р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu__wrapper"  id = "drink_id">
+            <div class="section__title-main" >
+                <h3>напитки</h3>
+                <img src="img/can.svg" alt="food item">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+                            <img src="img/31.png" alt="food item">
+                            <figcaption>
+                                <h5>"Coca-Cola"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>4.20р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+                            <img src="img/32.png" alt="food item">
+                            <figcaption>
+                                <h5>"Sprite"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>3.85р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+                            <img src="img/33.png" alt="food item">
+                            <figcaption>
+                                <h5>"Fanta"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>6.63р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu__wrapper" id = "salad_id">
+            <div class="section__title-main"  >
+                <h3>салаты</h3>
+                <img src="img/salad.svg" alt="food item">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+                            <img src="img/11.png" alt="food item">
+                            <figcaption>
+                                <h5>"по-баварский"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>4.20р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+                            <img src="img/12.png" alt="food item">
+                            <figcaption>
+                                <h5>"филадельфия"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>3.85р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                        <figure class="menu__item">
+                            <img src="img/13.png" alt="food item">
+                            <figcaption>
+                                <h5>"итальяно"</h5>
+                                <div class="price__item_bottom">
+                                    цена: <span>6.63р</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reserv" id="reserv_i">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8">
+                        <div class="reserv__basket">
+                            <h5>стол заказов:</h5>
+                            <ul class="reserv__ul">
+                                <!--<li class="reserv__item">
+    								<span class="reserv__title">
+    									
+    								</span>
+    								<span class="reserv__cancel">
+    									<img src="img/remove-symbol.svg" alt="remove">
+    								</span>
+    								<span class="reserv__price"
+    								</span>
+
+    							</li>-->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <form action="index_submit" method="get" accept-charset="utf-8">
+                            <label class="name__label">
+                                ваше имя
+                                <input type="text" name="name" value="" class="name__basket">
+                            </label>
+                            <label class="name__label">
+                                место доставки
+                                <input type="text" name="name" value="" class="name__basket">
+                            </label>
+                            <div class="summ__buying">
+                                итоговая сумма:
+                                <div class="summ__allPrice">
+                                    0
+                                </div>
+                            </div>
+                            <div class="btn__basket_wrap">
+                                <button type="submit">заказ</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="libs/jquery/jquery-1.11.2.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/jquery.malihu.PageScroll2id.min.js" type="text/javascript" charset="utf-8" ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+</body>
+
+</html>
